@@ -82,6 +82,25 @@ header{
 background-color: var(--white);
 }
 
+header .flex-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.625rem 6.3125rem ;
+} 
+
+header ul{
+display: flex;
+gap: 1.875rem;
+list-style: none;
+}
+
+.sign-in{
+    background-color: var(--primary-red);
+ border-style: none;
+ padding: 0.75rem 1rem;
+}
+
 footer{
     background-color: var(--tertiary-navy);
     margin: 0;
