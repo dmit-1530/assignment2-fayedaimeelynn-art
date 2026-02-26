@@ -1,3 +1,25 @@
-body{
-    background-color: #F1F5F9;
+:root{
+    /* colors */
+    --blue:#005A8F;
+    --off-white:#F8FAFC;
+    --primary-red:#BD3A5A;
+    --black:#000000;
+    --white:#FFFFFF;
+    --tertiary-navy:#002439;
+
+
+    /* font family */
+    --font-family: Arial, Helvetica, sans-serif;
+
+
+    /* font size */
+    --h1-fs: 4.5rem;
+    --banner-p-fs: 2.25rem;
+    --h2-fs: 2.25rem;
+    --p-fs: 1.125rem;
+    --link-p-fs: 1.37rem;
+    --footer: 1rem;
+    --button-fs: 1.25rem;
+    --nav-fs: 1.25rem;
 }
+
