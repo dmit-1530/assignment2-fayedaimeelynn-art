@@ -1,11 +1,11 @@
-:root{
+:root {
     /* colors */
-    --blue:#005A8F;
-    --off-white:#F8FAFC;
-    --primary-red:#BD3A5A;
-    --black:#000000;
-    --white:#FFFFFF;
-    --tertiary-navy:#002439;
+    --blue: #005A8F;
+    --off-white: #F8FAFC;
+    --primary-red: #BD3A5A;
+    --black: #000000;
+    --white: #FFFFFF;
+    --tertiary-navy: #002439;
 
 
     /* font family */
@@ -23,3 +23,86 @@
     --nav-fs: 1.25rem;
 }
 
+/* global typography */
+* {
+    font-family: var(--font-family);
+}
+
+nav {
+    font-size: var(--nav-fs);
+    line-height: 1.5;
+}
+
+button {
+    font-size: var(--button-fs);
+    color: var(--off-white);
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: var(--h1-fs);
+    font-weight: bold;
+    color: var(--off-white);
+}
+
+h2 {
+    font-size: var(--h2-fs);
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+p {
+    font-size: var(--p-fs);
+    line-height: 1.5;
+}
+
+footer p, cite { 
+    font-size: var(--footer);
+    line-height: 1.5;
+    color: var(--off-white);
+}
+
+.banner p {
+    font-size: var(--banner-p-fs);
+    color: var(--off-white);
+    line-height: 1.5;
+}
+
+.register-now,
+.pre-order {
+    font-size: var(--link-p-fs);
+    color: var(--primary-red);
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* header & footer */
+
+header{
+background-color: var(--white);
+}
+
+footer{
+    background-color: var(--tertiary-navy);
+    margin: 0;
+    padding: 3.375rem 11.812rem;
+}
+
+footer .flex-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+/* main content  */
+.banner {
+    background-color: var(--blue);
+}
+
+
+/* utilities & containers */
+
+.inner-container {
+    max-width: 1310px;
+    margin: 0 auto;
+}
