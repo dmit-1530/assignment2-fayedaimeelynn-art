@@ -56,7 +56,8 @@ p {
     line-height: 1.5;
 }
 
-footer p, cite { 
+footer p,
+cite {
     font-size: var(--footer);
     line-height: 1.5;
     color: var(--off-white);
@@ -78,36 +79,36 @@ footer p, cite {
 
 /* header & footer */
 
-header{
-background-color: var(--white);
+header {
+    background-color: var(--white);
 }
 
-header .flex-container{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0.625rem 6.3125rem ;
-} 
-
-header ul{
-display: flex;
-gap: 1.875rem;
-list-style: none;
+header .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 6.3125rem;
 }
 
-.sign-in{
+header ul {
+    display: flex;
+    gap: 1.875rem;
+    list-style: none;
+}
+
+.sign-in {
     background-color: var(--primary-red);
- border-style: none;
- padding: 0.75rem 1rem;
+    border-style: none;
+    padding: 0.75rem 1rem;
 }
 
-footer{
+footer {
     background-color: var(--tertiary-navy);
     margin: 0;
     padding: 3.375rem 11.812rem;
 }
 
-footer .flex-container{
+footer .flex-container {
     display: flex;
     justify-self: center;
     align-items: center;
@@ -116,8 +117,21 @@ footer .flex-container{
 /* main content  */
 .banner {
     background-color: var(--blue);
+    padding: 5.0625rem 6.3125rem;
 }
 
+.banner .flex-container {
+    display: flex;
+    gap: 2.125rem;
+    align-items: center;
+}
+
+.find-your-location {
+    background-color: var(--blue);
+    border-color: var(--off-white);
+    border: 0.0625rem solid;
+    padding: 0.75rem 1rem;
+}
 
 /* utilities & containers */
 
