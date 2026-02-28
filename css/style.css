@@ -361,13 +361,11 @@ body {
     display: flex;
     align-content: space-between;
     max-width: 53.875rem;
-
 }
 
 .upcoming-game-night {
     background-color: var(--white);
     max-width: 53.875rem;
-
 }
 
 .upcoming-game-night h2,
@@ -389,15 +387,6 @@ body {
 
 }
 
-/* .sidebar .flex-container{
-display: flex;
-    flex-wrap: wrap;
-         flex:0 1 auto;
-        flex-direction: column;
-    gap: 2.125rem;
-   align-content: center;
-    align-items: center;
-} */
 
 .sidebar {
     background-color: var(--white);
