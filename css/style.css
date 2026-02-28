@@ -48,12 +48,11 @@ h1 {
 h2 {
     font-size: var(--h2-fs);
     font-weight: lighter;
-    line-height: 1.5;
+
 }
 
 p {
     font-size: var(--p-fs);
-    line-height: 1.5;
 }
 
 footer p,
@@ -110,11 +109,17 @@ footer {
 
 footer .flex-container {
     display: flex;
-    justify-self: center;
+    justify-content: center;
+    justify-items: center;
     align-items: center;
+    gap: 2.125rem;
 }
 
 /* main content  */
+body {
+    background-color: var(--off-white);
+}
+
 .banner {
     background-color: var(--blue);
     padding: 5.0625rem 6.3125rem;
@@ -131,6 +136,68 @@ footer .flex-container {
     border-color: var(--off-white);
     border: 0.0625rem solid;
     padding: 0.75rem 1rem;
+}
+
+.main-inner-container {
+    max-width: 1310px;
+}
+
+.upcoming-game-night,
+.newsletter,
+.mtg,
+.events {
+    background-color: var(--white);
+    padding: 1.6875rem;
+}
+
+
+
+.upcoming-game-night .flex-container {
+    display: flex;
+    align-content: space-between;
+    column-gap: 2.125rem;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+
+.content-layout {
+    display: flex;
+    
+}
+
+.flex-container
+
+
+.left-column {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    }
+
+/* .right-column {
+    display: flex;
+    flex: 0 1 auto;
+    padding-top: 1.6875rem;
+    align-items: flex-start;
+
+} */
+
+.events{
+    flex: 3;
+}
+
+.new-games {
+    background-color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 1.6875rem;
+    flex: 1;
 }
 
 /* utilities & containers */
